@@ -9,21 +9,64 @@ section {
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 630px;
+  height: 625px;
 }
 h1 {
+  color: white;
+  width: 85vw;
+  background-color: black;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 2.5rem;
+}
+h2 {
   color: black;
   width: 85vw;
   background-color: white;
-  border-radius: 30px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
   font-size: 2.5rem;
 }
 section p {
-  color: black;
-  background-color: white;
-  width: 80vw;
-  border-radius: 15px;
+  color: white;
+  background-color: black;
+  width: 60vw;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 110px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   font-size: 1.5rem;
+}
+#hello {
+  color: white;
+  background-color: black;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 30vw;
+}
+#hello1 {
+  background-color: white;
+  width: 85vw;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 30vw;
+}
+#downp {
+  background-color: white;
+  color: black;
+  width: 60vw;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 section button {
   margin: 25px;
@@ -39,18 +82,48 @@ section button:hover {
 }
 
 @media screen and (max-width: 750px) {
-  h1 {
+  h1,
+  h2 {
     font-family: "Heebo", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 100vw;
   }
-  section p {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #hello {
+  }
+  #hello1 {
+  }
+  #downp {
     font-family: "Heebo", sans-serif;
     width: 90vw;
     font-size: 1.2rem;
   }
+  section {
+    height: 547px;
+  }
+  section p {
+    font-family: "Heebo", sans-serif;
+    width: 90vw;
+    font-size: 1.5rem;
+  }
   section button {
     padding: 10px;
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  section {
+    height: 662px;
+  }
+  h1,
+  h2 {
+    font-size: 1rem;
+  }
+  section p {
+    font-size: 0.9rem;
   }
 }
