@@ -7,7 +7,7 @@
 header::before {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 55px;
   background: url("../images/web-design-2906159_1280.jpg") no-repeat;
   background-size: cover;
   width: 100%;
@@ -20,7 +20,7 @@ nav {
   display: flex;
   height: 10vh;
   background-color: #3d59a459;
-  background: linear-gradient(to left, #3d59a4, white);
+  background: linear-gradient(to left, #c39b9b, #53260e6e);
 }
 #logo {
   position: absolute;
@@ -45,22 +45,15 @@ nav {
   color: white;
   font-size: 1.5rem;
 }
-h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 2.5rem;
-  height: 570px;
-}
+
 /* ################################################################################################# */
 #bottom-box {
   display: flex;
   height: 250px;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(to left, #3d59a4, white);
-  color: navy;
+  background: linear-gradient(to left, #c39b9b, #53260e6e);
+  color: black;
   flex-wrap: wrap;
 }
 .fbox img {
@@ -71,18 +64,22 @@ h1 {
   padding: 12px;
   font-size: 25px;
   width: 50px;
+  color: black;
   text-align: center;
-  background: linear-gradient(to left, #3d59a4, white);
+  background: linear-gradient(to left, #c39b9b, #53260e6e);
   border-radius: 100%;
   text-decoration: none;
 }
 .fa:hover {
   background: none;
 }
-
-@media screen and (max-width: 450px) {
+footer a {
+  font-family: "Heebo", sans-serif;
+  color: black;
+}
+@media screen and (max-width: 750px) {
   nav {
-    background: linear-gradient(to left, #3d59a4, white);
+    background: linear-gradient(to left, #c39b9b, #53260e6e);
     position: relative;
   }
   #hamburger {
@@ -118,10 +115,7 @@ h1 {
     color: whitesmoke;
     font-size: 1.6rem;
   }
-  h1 {
-    font-size: 1.5rem;
-    height: 100vh;
-  }
+
   #bottom-box {
     height: 450px;
     align-items: center;

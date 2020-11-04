@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 630px;
+}
+h1 {
+  color: black;
+  width: 85vw;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 2.5rem;
+}
+section p {
+  color: black;
+  background-color: white;
+  width: 80vw;
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+section button {
+  margin: 25px;
+  padding: 15px;
+  font-size: 1.5rem;
+  background: linear-gradient(to left, #c39b9b, #53260efa);
+  color: white;
+  cursor: pointer;
+}
+section button:hover {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 750px) {
+  h1 {
+    font-family: "Heebo", sans-serif;
+    font-size: 1.5rem;
+    width: 100vw;
+  }
+  section p {
+    font-family: "Heebo", sans-serif;
+    width: 90vw;
+    font-size: 1.2rem;
+  }
+  section button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
