@@ -72,13 +72,13 @@ section button {
   margin: 25px;
   padding: 15px;
   font-size: 1.5rem;
-  background: linear-gradient(to left, #c39b9b, #53260efa);
+  background: linear-gradient(to left, #71245d, #ff6a6a);
   color: white;
   cursor: pointer;
 }
 section button:hover {
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 @media screen and (max-width: 750px) {
@@ -117,7 +117,7 @@ section button:hover {
 
 @media screen and (max-width: 450px) {
   section {
-    height: 950px;
+    height: 900px;
   }
   h1,
   h2 {

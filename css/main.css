@@ -20,7 +20,7 @@ nav {
   display: flex;
   height: 10vh;
   background-color: #3d59a459;
-  background: linear-gradient(to left, #c39b9b, #53260e6e);
+  background: linear-gradient(to left, #71245d, #ff6a6a);
 }
 #logo {
   position: absolute;
@@ -52,8 +52,9 @@ nav {
   height: 250px;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(to left, #c39b9b, #53260e6e);
+  background: linear-gradient(to left, #71245d, #ff6a6a);
   color: black;
+  font-size: 1.3rem;
   flex-wrap: wrap;
 }
 .fbox img {
@@ -66,7 +67,7 @@ nav {
   width: 50px;
   color: black;
   text-align: center;
-  background: linear-gradient(to left, #c39b9b, #53260e6e);
+  background: linear-gradient(to left, #71245d, #ff6a6a);
   border-radius: 100%;
   text-decoration: none;
 }
@@ -79,7 +80,7 @@ footer a {
 }
 @media screen and (max-width: 750px) {
   nav {
-    background: linear-gradient(to left, #c39b9b, #53260e6e);
+    background: linear-gradient(to left, #71245d, #ff6a6a);
     position: relative;
   }
   #hamburger {
@@ -97,7 +98,7 @@ footer a {
     cursor: pointer;
   }
   .lblock {
-    background: #3d58a4;
+    background: linear-gradient(to left, #71245d, #ff6a6a);
     font-size: 2.5rem;
     flex-direction: column;
     position: fixed;
