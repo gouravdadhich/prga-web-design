@@ -117,7 +117,7 @@ section button:hover {
 
 @media screen and (max-width: 450px) {
   section {
-    height: 850px;
+    height: 950px;
   }
   h1,
   h2 {
